@@ -10,7 +10,7 @@ from django.contrib.auth.decorators import login_required
 #for models
 from .models import Company
 
-
+# comment for pull request
 # Create your views here.
 def mainPage(request):
     companies=Company.objects.all()[:4].all()
